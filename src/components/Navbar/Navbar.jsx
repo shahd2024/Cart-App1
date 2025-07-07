@@ -19,7 +19,7 @@ export function Navbar() {
     <>
    
 
-<nav className="bg-gray-100 border-gray-200 fixed top-0 start-0 end-0 z-30 cursor-pointer">
+<nav className="bg-gray-100 border-gray-200 fixed top-0 start-0 end-0 z-30 cursor-pointer px-3">
   <div className="max-w-screen-xl flex flex-wrap items-center justify-between   mx-auto py-2">
     <Link to="" className="flex items-center  space-x-3 rtl:space-x-reverse ">
      <img src={logo} className="h-8  " alt="Flowbite Logo" />

@@ -26,9 +26,9 @@ export function AllOrders() {
     },[])
    return(
     <>
-<div className="container mx-auto lg:mt-[80px]">
+<div className="container mx-auto max-sm:mt-[100px] sm:mt-[110px] md:mt-[100px] lg:mt-[90px] xl:mt-[90px] ">
   <div>
-       {allorders?.map((order)=>{ return  <div className=" mt-[50px] p-3 border border-1 border-[gray] rounded rounded-2" key={order.id}>
+       {allorders?.map((order)=>{ return  <div className="mx-3 mt-[50px] p-3 border border-1 border-[gray] rounded rounded-2" key={order.id}>
           <div className="">
            <h2 className="text-[green] font-semibold">OrderId:#{order?.id}</h2>
          <h2 className="font-semibold text-[red]" >isDelivered: {order?.isDelivered?'true':'false'}</h2>

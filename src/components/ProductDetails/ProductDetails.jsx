@@ -80,7 +80,7 @@ export function ProductDetails() {
    
    return(
     <>
-     <div className="container mx-auto mt-[70px]">
+     <div className="container mx-auto max-sm:mt-[100px] sm:mt-[110px] md:mt-[100px] lg:mt-[90px] xl:mt-[90px]">
       <div className="grid max-sm:grid-cols-1 sm:grid-cols-1 md:grid-cols-2 ">
          <div className="first max-sm:mb-4">
              <Slider {...settings} className="md:w-[60%] sm:w-full ">

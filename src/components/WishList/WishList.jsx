@@ -35,10 +35,10 @@ export function WishList() {
    },[])
    return(
     <>
-   <div className="container mx-auto max-sm:mt-[100px] lg:mt-[70px] bg-gray-200">
+   <div className="container mx-auto max-sm:mt-[100px] sm:mt-[100px] md:mt-[100px] lg:mt-[90px] xl:mt-[90px] bg-gray-200">
       <h1 className="text-3xl font-semibold mb-5 ms-4">My Wishlist:</h1>
       <div className="grid max-sm:grid-cols-1 md:grid-cols-1 ">
-       {wishlist?.data?.map((product)=>  { return <div className="parent flex mb-3 border border-لا-1 border-b-[gray] pb-2">
+       {wishlist?.data?.map((product)=>  { return <div className="mx-3 parent flex mb-3 border border-لا-1 border-b-[gray] pb-2">
          <div className="first w-1/2 flex justify-start ms-5  ">
             <img src={product?.imageCover} alt="" className="w-[30%]" />
           <div className="payment flex flex-col justify-center text-center ms-5">

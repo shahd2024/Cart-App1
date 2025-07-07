@@ -92,7 +92,7 @@ useEffect(()=>{
 
 
     if (loading){
-      return <div class="sk-chase mx-auto mt-[80px] max-sm:mt-[100px] md:mt-[100px]">
+      return <div class="sk-chase mx-auto max-sm:mt-[100px] sm:mt-[110px] md:mt-[100px] lg:mt-[90px] xl:mt-[90px]">
   <div class="sk-chase-dot"></div>
   <div class="sk-chase-dot"></div>
   <div class="sk-chase-dot"></div>
@@ -104,8 +104,8 @@ useEffect(()=>{
    return(
     <>
    
-    <div className="container mx-auto mt-[70px] max-sm:mt-[100px] ">
-  <div className="max-sm:mt-[100px] md:mt-[100px] lg:mt-[100px] mb-7">
+    <div className="container mx-auto max-sm:mt-[100px] sm:mt-[110px] md:mt-[110px] lg:mt-[90px] xl:mt-[90px] ">
+  <div className="max-sm:mt-[100px] md:mt-[100px] lg:mt-[100px] mb-7 mx-3">
     <label htmlFor="default-search" className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
     <div className="relative max-sm:mt-[100px]">
       <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
@@ -127,7 +127,7 @@ useEffect(()=>{
   <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2">
     {searchpro?.map((product) => (
       <div
-        className="relative group/parent hover:shadow-xl hover:shadow-[green] transition-all duration-[500ms] rounded-2 px-2 py-3 overflow-hidden"
+        className="mx-3 relative group/parent hover:shadow-xl hover:shadow-[green] transition-all duration-[500ms] rounded-2 px-2 py-3 overflow-hidden"
         key={product.id}
       >
         <Link to={`productdetails/${product.id}/${product.category.name}`}>

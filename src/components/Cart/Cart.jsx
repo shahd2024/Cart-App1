@@ -47,9 +47,9 @@ export function Cart() {
    return(<>
       
 
-<div className="container mt-[80px] mx-auto ">
+<div className="container sm:mt-[100px] md:mt-[100px] lg:mt-[90px] xl:mt-[90px] mx-auto ">
    <div className="relative overflow-x-auto shadow-md sm:rounded-lg mb-3">
-  <table className="w-full  text-sm text-left rtl:text-right text-gray-500 mt-[80px] ">
+  <table className="w-full  text-sm text-left rtl:text-right text-gray-500 mt-[80px]  ">
    
     <tbody className="">
       {cartitems?.data?.products.map((product)=>
@@ -91,7 +91,7 @@ export function Cart() {
     </tbody>
   </table>
 </div>
-<Link to={`/checkout/${cartitems?.cartId}`}><button className="bg-[green] text-white  p-2 rounded rounded-2 mt-4">CheckOut</button></Link>
+<Link to={`/checkout/${cartitems?.cartId}`}><button className="bg-[#2cc22c] font-semibold text-white  p-2 rounded rounded-2 my-6 ms-4">CheckOut</button></Link>
 </div>
 
 

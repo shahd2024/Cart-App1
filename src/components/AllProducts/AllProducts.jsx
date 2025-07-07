@@ -98,7 +98,7 @@ useEffect(()=>{
   <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2">
     {data?.data?.data.map((product) => (
       <div
-        className="relative group/parent hover:shadow-xl hover:shadow-[green] transition-all duration-[500ms] rounded-2xl px-2 py-3 overflow-hidden"
+        className="mx-3 relative group/parent hover:shadow-xl hover:shadow-[green] transition-all duration-[500ms] rounded-2xl px-2 py-3 overflow-hidden"
         key={product.id}
       >
         <Link to={`productdetails/${product.id}/${product.category.name}`}>
