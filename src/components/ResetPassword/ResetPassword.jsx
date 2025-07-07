@@ -3,7 +3,7 @@ import * as yup from 'yup'
 import {useFormik} from 'formik'
 import axios from 'axios'
 import { NavLink, useNavigate } from "react-router-dom";
-import { UserContext } from "../../../../Context/UserContext";
+import { UserContext } from "../../../Context/UserContext";
 export function ResetPassword() {
     let {userLogin,setuserLogin}=useContext(UserContext)
      let navigate=useNavigate()

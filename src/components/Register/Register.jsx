@@ -3,7 +3,8 @@ import * as yup from 'yup'
 import {useFormik} from 'formik'
 import axios from 'axios'
 import { useNavigate } from "react-router-dom";
-import { UserContext } from "../../../../Context/UserContext";
+import { UserContext } from "../../../Context/UserContext";
+
 export function Register() {
    let {userLogin,setuserLogin}=useContext(UserContext)
    // console.log(userLogin);

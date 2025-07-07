@@ -1,8 +1,9 @@
 import React, { useContext } from "react";
 import logo from '../../assets/images/freshcart-logo.svg'
 import { Link, NavLink, useNavigate } from "react-router-dom";
-import { UserContext } from "../../../../Context/UserContext";
-import { productcontext } from "../../../../ProductsContext/ProductContext";
+import { productcontext } from "../../../ProductsContext/ProductContext";
+import { UserContext } from "../../../Context/UserContext";
+
 
 export function Navbar() {
   let {Cart,setcart}=useContext(productcontext)

@@ -2,8 +2,8 @@ import React, { useContext } from "react";
 import * as yup from 'yup'
 import {useFormik} from 'formik'
 import { useNavigate, useParams } from "react-router-dom";
-import { productcontext } from "../../../../ProductsContext/ProductContext";
 import { useState } from "react";
+import { productcontext } from "../../../ProductsContext/ProductContext";
 export function CheckOut() {
    let {checkout,cashorder,Cart,setCart}=useContext(productcontext)
    let{cartid}=useParams()

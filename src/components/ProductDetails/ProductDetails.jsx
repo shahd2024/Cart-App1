@@ -2,8 +2,9 @@ import axios from "axios";
 import React, { useContext, useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import Slider from "react-slick";
-import { productcontext } from "../../../../ProductsContext/ProductContext";
+
 import toast, { Toaster } from 'react-hot-toast';
+import { productcontext } from "../../../ProductsContext/ProductContext";
 export function ProductDetails() {
    let [loading,setloading]=useState(false)
      var settings = {
